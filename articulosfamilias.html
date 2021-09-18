@@ -1,204 +1,192 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ariculos familia</title>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/assets/bootstrap/css/footer.css" />
-    <style>
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-      }
 
-      .wrapper {
-        min-height: 81.5%;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ariculos familia</title>
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/bootstrap/css/footer.css" />
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
 
-      footer {
-        height: auto;
-      }
-    </style>
-  </head>
+    .wrapper {
+      min-height: 81.5%;
+    }
 
-  <body style="background-color: darkslategrey">
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/inicio.html">Pymes</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    footer {
+      height: auto;
+    }
+  </style>
+</head>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/inicio.html">Inicio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/articulosfamilias.html"
-              >Articulos Familia <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/articulos.html">Articulos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Clientes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ventas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ventas Consultas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Acerca de </a>
-          </li>
-        </ul>
-        <div class="navbar-nav">
-          <span class="navbar-text" style="margin: 0 0.5rem 0 0"
-            >Bienvenido: Ignacio Laciar</span
-          >
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cerrar Sesión</a>
-          </li>
-        </div>
+<body style="background-color: darkslategrey">
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/inicio.html">Pymes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/articulosfamilias.html">Articulos Familia <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/articulos.html">Articulos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Clientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ventas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ventas Consultas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca de </a>
+        </li>
+      </ul>
+      <div class="navbar-nav">
+        <span class="navbar-text" style="margin: 0 0.5rem 0 0">Bienvenido: Ignacio Laciar</span>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cerrar Sesión</a>
+        </li>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- header -->
-    <div class="wrapper">
-      <div
-        class="header rounded-lg"
-        style="
+  <!-- header -->
+  <div class="wrapper">
+    <div class="header rounded-lg" style="
           background-color: #263f3f;
           color: white;
           padding: 3rem;
           margin: 1rem 1rem 8rem 1rem;
-        "
-      >
-        <h1 class="display-4" style="padding: 0 0 0.5rem 0">Articulos</h1>
+        ">
+      <h1 class="display-4" style="padding: 0 0 0.5rem 0">Articulos</h1>
 
-        <!-- tabla -->
-        <div>
-          <table class="table table-bordered table-striped table-dark">
-            <thead>
-              <tr>
-                <th class="text-center">IdArticuloFamilia</th>
-                <th class="text-center">Nombre</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>ACCESORIOS</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>AUDIO</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>CELULARES</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>CUIDADO PERSONAL</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>DVD</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>FOTOGRAFIA</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>FRIO-CALOR</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>GPS</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>INFORMATICA</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>LED - LCD</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <!-- tabla -->
+      <div>
+        <table class="table table-bordered table-striped table-dark">
+          <thead>
+            <tr>
+              <th class="text-center">IdArticuloFamilia</th>
+              <th class="text-center">Nombre</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>ACCESORIOS</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>AUDIO</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>CELULARES</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>CUIDADO PERSONAL</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>DVD</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>FOTOGRAFIA</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>FRIO-CALOR</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>GPS</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>INFORMATICA</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>LED - LCD</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="section bg-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">
-                Informacion
-              </h6>
-              <ul class="list-unstyled footer-link mt-4">
-                <li><a href="/inicio.html">Inicio</a></li>
-                <li><a href="/articulosfamilias.html">Articulos Familia</a></li>
-                <li><a href="/articulos.html">Articulos</a></li>
-                <li><a href="">Clientes</a></li>
-                <li><a href="">Ventas</a></li>
-                <li><a href="">Ventas Consultas</a></li>
-                <li><a href="">Acerca De</a></li>
-              </ul>
-            </div>
+  <!-- Footer -->
+  <footer class="section bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">
+              Informacion
+            </h6>
+            <ul class="list-unstyled footer-link mt-4">
+              <li><a href="/inicio.html">Inicio</a></li>
+              <li><a href="/articulosfamilias.html">Articulos Familia</a></li>
+              <li><a href="/articulos.html">Articulos</a></li>
+              <li><a href="">Clientes</a></li>
+              <li><a href="">Ventas</a></li>
+              <li><a href="">Ventas Consultas</a></li>
+              <li><a href="">Acerca De</a></li>
+            </ul>
           </div>
+        </div>
 
-          <div class="col-lg-3">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">Recursos</h6>
-              <ul class="list-unstyled footer-link mt-4">
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Lorem</a></li>
-              </ul>
-            </div>
+        <div class="col-lg-3">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">Recursos</h6>
+            <ul class="list-unstyled footer-link mt-4">
+              <li><a href="">Lorem</a></li>
+              <li><a href="">Lorem</a></li>
+              <li><a href="">Lorem</a></li>
+              <li><a href="">Lorem</a></li>
+            </ul>
           </div>
+        </div>
 
-          <div class="col-lg-2">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">Ayuda</h6>
-              <ul class="list-unstyled footer-link mt-4">
-                <li><a href="">Registrarse</a></li>
-                <li><a href="">Iniciar Sesion</a></li>
-                <li><a href="">Terminos y Servicios</a></li>
-                <li><a href="">Politica de Privacidad</a></li>
-              </ul>
-            </div>
+        <div class="col-lg-2">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">Ayuda</h6>
+            <ul class="list-unstyled footer-link mt-4">
+              <li><a href="">Registrarse</a></li>
+              <li><a href="">Iniciar Sesion</a></li>
+              <li><a href="">Terminos y Servicios</a></li>
+              <li><a href="">Politica de Privacidad</a></li>
+            </ul>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">
-                Contactacto
-              </h6>
-              <p class="contact-info mt-4">Llamanos</p>
-              <p class="contact-info">+54 9 351 222-1111</p>
-              <p class="contact-info">Córdoba, Cruz del Eje</p>
-              <!-- <div class="mt-5">
+        <div class="col-lg-4">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">
+              Contactacto
+            </h6>
+            <p class="contact-info mt-4">Llamanos</p>
+            <p class="contact-info">+54 9 351 222-1111</p>
+            <p class="contact-info">Córdoba, Cruz del Eje</p>
+            <!-- <div class="mt-5">
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#"><i
                       class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
@@ -210,29 +198,23 @@
                 </li>
               </ul>
             </div> -->
-            </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="text-center mt-5">
-        <p class="footer-alt mb-0 f-14">2021 © Pymes</p>
-      </div>
-    </footer>
+    <div class="text-center mt-5">
+      <p class="footer-alt mb-0 f-14">2021 © Pymes</p>
+    </div>
+  </footer>
 
-    <script
-      src="https://kit.fontawesome.com/d3b1add9c5.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://kit.fontawesome.com/d3b1add9c5.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
